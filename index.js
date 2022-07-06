@@ -1,77 +1,94 @@
-const fs = require('fs') 
-const csvReader = require('fast-csv')
-const StoryblokClient = require('storyblok-js-client')
+const fs = require("fs")
+const csvReader = require("fast-csv")
+const StoryblokClient = require("storyblok-js-client")
+const slugify = require("slugify")
+const chalk = require("chalk")
 
 // Initialize the client with the oauth token
 const Storyblok = new StoryblokClient({
-  oauthToken: 'YOUR_OAUTH_TOKEN' // can be found in your My account section
+  oauthToken: "", // Can be found in your My account section
 })
 
+// Configuration options
 const config = {
-  spaceId: 'YOUR_SPACE_ID', // can be found in the space settings.
-  parentFolder: 'YOUR_NUMERIC_FOLDER_ID' // navigate into your folder and copy the id from the URL at app.storyblok.com <- last one 
+  spaceId: "127750", // Can be found in the space settings.
+  parentFolder: "80975688", // parentFolder = GB/attributes or INT/attributes or NL/attributes. Take id at the end.
+  specGroupId: "bab9cc2e-87ec-4418-9283-1fce23cf2b98",
+  filePath: "failed/GB/", // Create a country folder in the failed folder and change the filepath manual per country
+  writeFailuresToFile: false, // When set to false it will not overwrite en document the failed Storyblok uploads
 }
 
-let stream = fs.createReadStream('demo.csv')
+// Create a file for failed Storyblok uploads
+if (config.writeFailuresToFile) {
+  fs.writeFile(`${config.filePath}${config.parentFolder}.txt`, "", (error) => {
+    if (error) {
+      console.log(chalk.red("Error:"), error)
+    } else {
+      console.log(
+        chalk.green("Success:"),
+        `created ${config.parentFolder}.txt to store failed Storyblok uploads.`
+      )
+    }
+  })
+}
 
-csvReader.parseStream(stream, { headers: true, delimiter: ';' })
-  .on('data', (line) => {
-    // one line of csv in here
+let stream = fs.createReadStream("accell.csv")
+
+csvReader
+  .parseStream(stream, { headers: true, delimiter: ";" })
+  .on("data", (line) => {
     let story = {
-      slug: line.path,
-      name: line.title,
+      slug: slugify(line.Label, {
+        lower: true,
+        strict: true,
+      }),
+      name: line.Label,
       parent_id: config.parentFolder,
       content: {
-        component: 'post',
-        title: line.title,
-        text: line.text,
-        image: line.image,
-        category: line.category
-      }
+        component: "OAttribute",
+        title: line.Label,
+        specGroup: config.specGroupId,
+        explanation: [],
+        ecomAttributeName: line.ExternalKey,
+        ecomAttributeConnected: "",
+      },
     }
 
     Storyblok.post(`spaces/${config.spaceId}/stories/`, {
-      story
-    }).then(res => {
-      console.log(`Success: ${res.data.story.name} was created.`)
-    }).catch(err => {
-      console.log(`Error: ${err}`)
+      story,
     })
-  })
-  .on('end', () => {
-    // Done reading the CSV - now we finally create the component with a definition for each field
-    // we can also skip that and define the content type using the interface at app.storyblok.com
-    let component = {
-      name: "post",
-      display_name: "Post",
-      schema: {
-        title: {
-          type: "text",
-          pos: 0
-        },
-        text: {
-          type: "markdown",
-          pos: 1
-        },
-        image: {
-          type: "image",
-          pos: 2
-        },
-        category: {
-          type: "text",
-          pos: 3
+      .then((res) => {
+        console.log(
+          `${chalk.green("Success:")} ${res.data.story.name} was created.`
+        )
+      })
+      .catch((error) => {
+        if (config.writeFailuresToFile) {
+          // Store the failed posts in a file per parent folder
+          const content = {
+            title: line.Label,
+            ecomAttributeName: line.ExternalKey,
+          }
+
+          fs.appendFile(
+            `${config.filePath}${config.parentFolder}.txt`,
+            `title: ${line.Label}\recomAttributeName: ${line.ExternalKey}\r------------------------------------\r`,
+            (error) => {
+              chalk.red("Error:"),
+                `failed to write ${line.Label}/${line.ExternalKey} to ${config.filePath}${config.parentFolder}.txt}.`
+            }
+          )
         }
-      },
-      is_root: true, // is content type
-      is_nestable: false // is nestable (in another content type)
-    }
 
-    Storyblok.post(`spaces/${config.spaceId}/components/`, {
-      component
-    }).then(res => {
-      console.log(`Success: ${res.data.component.name} was created.`)
-    }).catch(err => {
-      console.log(`Error: ${err}`)
-    })
+        // Log out the error
+        console.log(
+          `${chalk.red(`Error:`)} failed to create for ${line.Label}.`
+        )
+        console.log(
+          `${chalk.red(`${error.response.status}:`)} ${
+            error.response.statusText
+          }.`
+        )
+        console.log(chalk.red("-----"))
+      })
   })
-

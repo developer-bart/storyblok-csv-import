@@ -1,0 +1,617 @@
+Label;ExternalKey
+Marketing Color;AACOL
+Make;AAMRK
+Size;AASIZE
+Product packaging;AAVERP
+Item model;ARTMDL
+Check commercial item;CHKCOMART
+Secondary base colour DST;COLOR2ND
+Primary base colour DST;COLORBAS
+Diameter in mm;DIAMETER
+Frame material DST;FRAMEMAT
+Frame/item height in cm;HEIGHT
+Per item in webshop;MD-PAS
+SEGMENT;SEGMENT
+Product description 2;UA-AAND
+Breathing;UA-ADEMEND
+Dimensions in cm;UA-AFMETIN
+Width in cm;UA-BREEDTE
+ETRTO tyre size;UA-ETRTO
+Height in cm;UA-HEIGHT
+Volume in ml;UA-INHML
+Volume in litres;UA-INHOUD
+Length in cm;UA-LENGTE
+Size (inch);UA-MAAT
+Material;UA-MAT
+Product line;UA-PRLYN
+Product description 1;UA-PROMS
+Product version;UA-PRUITV
+Item version;UA-UITV
+Shop packaging;UA-WIN
+Drive type;UP-AANDTYP
+Gear cables;UP-ADKAB
+Incl. hoses;UP-ADLEID
+Removable;UP-AFNB
+UP-AXTYPEF;UP-AXTYPEF
+UP-AXTYPER;UP-AXTYPER
+UP-BALEK;UP-BALEK
+Battery type;UP-BATTYP
+Battery life (hours);UP-BATUUR
+Tyre size (inch);UP-BBIM
+Valve length in mm;UP-BBVL
+Valve type;UP-BBVT
+UP-BEARPED;UP-BEARPED
+Fitting hardware;UP-BEVMAT
+including screws and bolts;UP-BHIBOUT
+Twist cap;UP-BIDRDP
+UP-BILENSH;UP-BILENSH
+Thermo;UP-BITHRM
+UP-BLADDE;UP-BLADDE
+UP-BLADINH;UP-BLADINH
+Bluetooth;UP-BLUE
+Wheel size;UP-BMT
+Mounting on bike;UP-BOF
+UP-BOTTVOL;UP-BOTTVOL
+Min/Max pressure in bar;UP-BPMM
+Pressure (psi);UP-BPSI
+Top;UP-BRBOVST
+Reflection;UP-BREF
+UP-BRKOG;UP-BRKOG
+Bib short length;UP-BRLENGT
+UP-BRLUM;UP-BRLUM
+UP-BRLUMF;UP-BRLUMF
+UP-BRLUMR;UP-BRLUMR
+UP-BRLUXF;UP-BRLUXF
+UP-BRLUXR;UP-BRLUXR
+Brake type;UP-BRTYP
+UP-BRVING;UP-BRVING
+Chamois/Pad;UP-BRZEEM
+Tyre type;UP-BTYP
+UP-BUSH;UP-BUSH
+Cassette body;UP-CASSBOD
+Cable Routing;UP-CBLROUT
+Chest cm;UP-CHMAAT
+Chain Length Links;UP-CHNLGT
+Chainring Mount;UP-CHRMNT
+Offset (mm);UP-CHROFFS
+Number of Teeth;UP-CHRTTH
+Incl. Cleats;UP-CLEATPD
+Clipless;UP-CLPED
+Cleat type;UP-CLTYPPD
+Material type;UP-COMMAT
+Diameter Conus Steerer mm;UP-CONCOST
+Number of arms;UP-CRARM
+Boost Compatible;UP-CRBOOST
+Crank/cup connection;UP-CRCUPS
+Crank lengte;UP-CRHGT
+Crank Lenght;UP-CRLGT
+Crank type;UP-CRTYP
+Teeth Ratio;UP-CSRATIO
+Derailleur diameter;UP-DERDIA
+Clamp strap;UP-DERKB
+Derailleur sort;UP-DERSRT
+Derailleur type;UP-DERTYP
+Headset Design;UP-DESHS
+Pedal Axle Diameter;UP-DIAAXPD
+Max. rotor diameter (mm);UP-DIADMAX
+Min. rotor diameter (mm);UP-DIADMIN
+Diameter Disc F;UP-DIADSCF
+Diameter Disc R;UP-DIADSCR
+Steerer tube diameter;UP-DIAFORK
+Diameter Installation Fra;UP-DIAFRHS
+Seatpost Diameter;UP-DIASP
+Diameter Steerer mm;UP-DIASTHS
+Brake disc mount;UP-DISCBEV
+Wireless;UP-DL
+Wire;UP-DRAAD
+Load capacity kg;UP-DRGVERM
+Drop in mm;UP-DROP
+Data Transmission;UP-DTRM
+Dynamo hook;UP-DYNHAAK
+Suitable for E-bike;UP-EBREADY
+Dimensions in cm (lwh);UP-FCAFMET
+Distance display;UP-FCAFST
+Cadence;UP-FCCDNS
+Heart rate;UP-FCHART
+Elevation;UP-FCHGT
+Speed display;UP-FCSNELH
+Number of children;UP-FDAANTK
+Dimensions folded cm;UP-FDAFMIN
+Bike carrier with reversing light;UP-FDALICH
+Capacity (number of bikes);UP-FDCAPA
+Connector type;UP-FDCON
+Bike carrier load capacity in kg;UP-FDDV
+Suitable for E-bike;UP-FDEBIKE
+Tiltable bike carrier;UP-FDKANTE
+Wheel size (inch);UP-FDMAATW
+Bike carrier mist lamp;UP-FDMIST
+Lockable bike carrier;UP-FDVEGRE
+Front wheel (inch);UP-FDVOORW
+Dimensions in cm (lwh);UP-FKAFMET
+Max. load capacity (kg);UP-FKLAADV
+Bike size in inches;UP-FMINCH
+Pedal Foldable;UP-FOLDPED
+Wheelsize 26;UP-FR26
+Wheelsize 27.5;UP-FR27.5
+Wheel size 27.5+;UP-FR27.5+
+Wheelsize 28;UP-FR28
+Wheelsize 29;UP-FR29
+Hub spacing;UP-FRAXLES
+Bottom bracket;UP-FRBB
+Belt Drive;UP-FRBD
+Belt Drive;UP-FRBDCOM
+Bottom Bracket;UP-FRBOBR
+Brake;UP-FRBR
+Brake system;UP-FRBS
+Chain hanger;UP-FRCH
+Cable routing;UP-FRCR
+Chain Stays;UP-FRCS
+Dropout;UP-FRDO
+Dropout;UP-FRDOCOM
+Down Tube;UP-FRDT
+Drivetrain option;UP-FRDTO
+Front Derailleur;UP-FRFD
+Frame Finish;UP-FRFF
+Fender Option;UP-FRFO
+Frame Tubing;UP-FRFT
+Feature;UP-FRFTR
+Headset;UP-FRHS
+Headset;UP-FRHSCOM
+Head Tube Logo;UP-FRHTL
+Hubs;UP-FRHUB
+Maximum Tire Usage;UP-FRMTU
+Rack Option;UP-FRRO
+Seat Post Collar Diameter;UP-FRSCD
+Seat Post Diameter;UP-FRSPD
+Seat Stays;UP-FRSS
+S&S BTC™ Couplings option;UP-FRSSBTC
+Seat Tube;UP-FRST
+Suspension travel;UP-FRSUST
+Thru-Axle;UP-FRTA
+Top Tube;UP-FRTT
+3rd Water Bottle Option;UP-FRWBO
+Brake type;UP-FTREM
+Front wheel support;UP-FTVWT
+Number of gears;UP-GEARS
+Suitable for children's bike;UP-GESKID
+Circumference cm;UP-GLCIR
+Glove Type;UP-GLTYPE
+GPS;UP-GPS
+Grip;UP-GRIPPED
+Height mm;UP-HEIGHT
+Head size;UP-HFDMAAT
+Head circumference (cm);UP-HLMHOMT
+Helmet size;UP-HLMMAAT
+Scale;UP-HLMSCHA
+Ventilation channels;UP-HLMVENK
+Visor;UP-HLMVIZI
+Number of Holes FW;UP-HOLEF
+Number of Holes RW;UP-HOLER
+Number of Holes;UP-HOLES
+Amount Holes FW;UP-HOLESF
+Rim Hole Size;UP-HOLESIZ
+Amount Holes RW;UP-HOLESR
+Head circumference (cm);UP-HOMT
+Incl. Hardware;UP-HWINCSH
+Adjustable height;UP-IHV
+Hub width FW;UP-INBBRF
+Hub width RW;UP-INBBRR
+Incl. Disc;UP-INCDSC
+Foldable;UP-INKL
+Cable length mm;UP-KABLEN
+Chainrings;UP-KETB
+Clothing size;UP-KLMAAT
+PC connection;UP-KOPPC
+Number of Seats;UP-KTNRKID
+Belt;UP-KZAGRD
+Mounting on bike;UP-KZBOF
+Child seat load capacity in kg;UP-KZDV
+Child seat belt;UP-KZGRD
+Position on bike;UP-KZPOF
+Adjustable foot rest;UP-KZVVB
+Lenght Brake Lever (Finge;UP-LBRLEV
+Hose length mm;UP-LEIDLEN
+Length Axle to Crown (mm);UP-LELEFRK
+Length in mm;UP-LENGHT
+Length in mm;UP-LENGTH
+Steerer tube length (mm);UP-LETUFRK
+Age category;UP-LFTD
+Lenght Quill (mm);UP-LNGQUIL
+Lenght Stem (mm);UP-LNGSTEM
+Front Fork Lock Out;UP-LOCKFRK
+Rear Shock Lockout;UP-LOCKSH
+Size EU;UP-MAATEU
+Material;UP-MAT
+Basket Material;UP-MATBASK
+Bell Material;UP-MATBELL
+Bottle Cage Material;UP-MATBOTC
+Front Fork Material;UP-MATFORK
+Headset Material;UP-MATHS
+Pedal Body Material;UP-MATPEDB
+Pedal Cage Material;UP-MATPEDC
+Rear Shock Material;UP-MATRSH
+Saddle cover material;UP-MATZD
+With lid;UP-MNDMD
+Basket type;UP-MNDTYP
+Mount Child Seat F;UP-MNTCSF
+Model;UP-MODEL
+Assembly;UP-MONT
+Sleeve;UP-MOUW
+With integrated lock;UP-MSLT
+Toolless assembly;UP-MZG
+Oil Type;UP-OILPURP
+Passing;UP-PASS
+Holder;UP-PHDR
+Exchangeble Pins;UP-PINSPED
+With pressure gauge;UP-PMM
+Max. pressure [bar];UP-PMPBAR
+Max. pressure [psi];UP-PMPPSI
+Valve connection;UP-PMPVENT
+Position on bike;UP-POF
+Power Meter;UP-PWRMET
+Sold Secure;UP-QMSOLDS
+Fork pitch mm;UP-RAKE
+Reach (mm);UP-REACH
+Pedal Reflection;UP-REFLPED
+Electric;UP-REMGREL
+Brake lever;UP-REMH
+V-brake cam;UP-REMNOK
+Incl. Remote;UP-REMOFRK
+Incl. Remote;UP-REMOSH
+Type Remote;UP-REMTYF
+Type Remote;UP-REMTYSH
+Number of Holes;UP-RIMHOLE
+Number of links;UP-SCHAANT
+Link width [inch];UP-SCHDI
+Shoe size;UP-SCHMAAT
+With connecting link;UP-SCHMVBS
+Shoe material description;UP-SCHNCMA
+Insole;UP-SCHNLPZ
+Pedal;UP-SCHNPED
+Shoe closure;UP-SCHNSLU
+Sole;UP-SCHNZOO
+Connecting link type;UP-SCHVERB
+Season;UP-SEIZOEN
+Size Shoecover;UP-SHCOVSZ
+Single/Double Sided;UP-SIDEDPD
+Steerer Diameter;UP-SIZSTHS
+Lock cover;UP-SLHOES
+Flip key;UP-SLKS
+Quality mark ART;UP-SLOTKM
+Lock control;UP-SLOTSLC
+with software;UP-SOFTW
+Sock Length;UP-SOKLENG
+Spoke Diameter;UP-SPDIAM
+Spoke Head;UP-SPHEAD
+Spokes VW;UP-SPOKEF
+Spokes AW;UP-SPOKER
+Spoke Shape;UP-SPSHAPE
+Spoke Size;UP-SPSIZE
+Battery sort;UP-SRTBAT
+Headseat Height mm (Stack;UP-STACKHS
+Step counter;UP-STAPTEL
+Drop (mm);UP-STDROP
+Pitch (mm);UP-STEEK
+Stem Type;UP-STEMTYP
+Stem diameter (mm);UP-STRDIAM
+Handlebar plugs;UP-STRDOP
+Clamp diameter (mm);UP-STRKLEM
+Locking Handle;UP-STRLOCK
+Stem bolt material;UP-STRPENB
+Stem angle (degrees);UP-STRPENH
+Adjustable stem;UP-STRPENV
+Stem type;UP-STRPNTY
+Handlebar adjuster;UP-STVERST
+Supp. Reference No;UP-SUPARTN
+With map window;UP-TASLEES
+With reflection;UP-TASMREF
+With shoulder strap;UP-TASMSCH
+Rain cover;UP-TASREGH
+Closure;UP-TASSLUI
+Bag type;UP-TASTYPE
+Waterproof;UP-TASWATD
+Water-repellent;UP-TASWATR
+With crank axle;UP-TRAS
+Front Fork Travel;UP-TRAVFRK
+Rear Shock Travel;UP-TRAVSH
+Crank axle mounting width [mm];UP-TRINBB
+Crank axle length [mm];UP-TRLENGT
+Drum brake;UP-TROM
+Frame/cup connection;UP-TRVRFC
+Tubeless;UP-TUBELSS
+Gear ratio;UP-TWV
+Type Cup Frame;UP-TYCFRHS
+Type Cup Steerer;UP-TYCSTHS
+Mounting type;UP-TYPBEV
+Type;UP-TYPE
+Grip Type;UP-TYPEGRI
+Headset Type;UP-TYPEHS
+Rear Shock Type;UP-TYPERSH
+Type Gauge;UP-TYPGAUG
+Type chamois/pad;UP-TYPZEEM
+Rim width outside mm;UP-VELGBRB
+Rim inner width mm;UP-VELGBRI
+Rim height F/R in mm;UP-VELGHGT
+Rim type;UP-VELGTYP
+Ventilation channels;UP-VENK
+Spring-loaded;UP-VEREND
+Adjustable;UP-VERST
+Shape Valve;UP-VLVSHAP
+Volume Grease/Oil ML;UP-VOLGROI
+Fork tube;UP-VORKBUI
+Lighting battery life;UP-VRLBDB
+Lighting battery level indicator;UP-VRLBI
+LED lights;UP-VRLLED
+Lighting LED count;UP-VRLLEDA
+Rechargeable lighting;UP-VRLOPL
+Lighting sort;UP-VRLSRT
+Lighting levels;UP-VRLSTND
+Lighting brightness;UP-VRLSTR
+Lighting power source;UP-VRLVOED
+Lighting visibility distance;UP-VRLZVAN
+Waist cm;UP-WAMAAT
+Water resistance;UP-WATBEST
+Waterproof;UP-WATPR
+Water Resistant;UP-WATRES
+Operation;UP-WERK
+Weight Grease/Oil Gr;UP-WGTGROI
+Wheel size in inch;UP-WHEEL
+Width in mm;UP-WIDTH
+Handlebar Width (mm);UP-WIDTHST
+Windproof;UP-WINDPR
+Wheel size 2;UP-WMT2
+Mounting on bike;UP-WSBOF
+Saddle rail material;UP-ZDMATBR
+Saddle shell material;UP-ZDSCHL
+Saddle clamp;UP-ZDSTROP
+Saddle recess;UP-ZDUITSP
+Set back mm;UP-ZPSB
+Weight comm. gram;WEIGHTCGR
+Show Acc. bike size in inches;UP-FMINCHT
+Bespectacled;UP-GLSWEAR
+Bottle cage entry;UP-TYPBOCG
+Brake Pad material;UP-MATBRP
+Cable Type;UP-CABTYPE
+Carrier Adjustable;UP-CARRADJ
+Carrier Material;UP-MATCARR
+Carrier Mount;UP-CARRMNT
+Carrier Size;UP-CARRSZ
+Carrier Spring Clamp;UP-CARRSCL
+Chain guard;UP-KETK
+Conditions;UP-OILCOND
+Crank chaninwheels;UP-CRCHW
+Crank color;UP-CRCLR
+Derailleur Cable Pull;UP-DERPULL
+Derailleur Clamp Sizing;UP-DERCLSZ
+Derailleur Mount;UP-DERMNT
+Diamater Steerer Tube;UP-STRCLMP
+Diameter Disc;UP-DIADSC
+Suitable for E-bike;UP-TASEBIK
+E-Bike System;UP-EBSYS
+Recess for elastic luggage strap;UP-TASSNLB
+Glasses Material;UP-MATGLAS
+Handlebar Clamp (mm);UP-DIACLMP
+Hydration Compatible;UP-HYDRCOM
+Incl. Extra Glasses;UP-EXTRGLS
+Incl. Kickstand;UP-CARRKST
+Incl. Light;UP-HLMLGT
+Incl. Lighting;UP-CARRLGT
+Incl. MIPS;UP-HLMMIPS
+Incl. Mudguard Stays;UP-MGSTAYS
+Incl. Storage Accessories;UP-GLSSTOR
+Innercable Diameter mm;UP-INCABDI
+Innercable Length mm;UP-INCABLE
+Innercable Material;UP-MATINCA
+LED recess;UP-TASLEDU
+Lens type;UP-TYPLENS
+Luggage Interface;UP-CARRINT
+Material Mudguard;UP-MATMUDG
+Mount Child Seat R;UP-MNTCSR
+Mudguard Mount;UP-TYPMGMT
+Mudguard Size;UP-MGSIZE
+Number of Wires;UP-NRWIRES
+Nutricion Purpose;UP-PURNUTR
+Nutricion Type;UP-TYPNUTR
+Pedal Purpose;UP-PURPED
+Pre-formed;UP-TASVOVO
+Pump Pressure Type;UP-TYPPRES
+Saddle Type;UP-TYPESAD
+Seatpost Material;UP-MATSP
+Stabilizer Size;UP-STBSIZE
+Terrain;UP-TYRTERR
+Trainer Type;UP-TYPTRAI
+Type Bike Stand;UP-SHSTTYP
+Version description;UP-UITVO
+Wide Fit;UP-WIDEFIT
+With Lock;UP-TASMSLO
+Description/model;AAGNA
+Group;AAGRP
+Bike brands;AAMRKB
+Specification;AASPEC
+Search terms general;AAZOEK
+Search terms Danish;AAZOEKDK
+Search terms German;AAZOEKDU
+Search terms English;AAZOEKEN
+Search terms Spanish;AAZOEKES
+Search terms Finnish;AAZOEKFI
+Search terms French;AAZOEKFR
+Search terms Dutch;AAZOEKNL
+Search terms Swedish;AAZOEKSE
+Additional item info 1;ACCTXTNL1
+Additional item info 2;ACCTXTNL2
+Additional item info 3;ACCTXTNL3
+Additional item info 4;ACCTXTNL4
+Bike uses flex bat. type;BATTYPUSE
+Colour code (hex);COLHEX
+Commercial colour;COLORCOM
+Colour commercial code;COLORCOMC
+Item group DST;DSTARTGRP
+Main group DST;DSTARTHGRP
+E-bike electrical system;EBSYS
+Frame type DST;FRAMETYPE
+Low step-through;FRLOW
+Special frame;FRSPECIAL
+Number of gears;GEARS
+Gear system type;GEARTYPE
+Secondary frame height;HEIGHTS
+One-liner;MD-1LNR
+One-liner;MD-1LNR
+Accessories 1;MD-ACC1
+Accessories 2;MD-ACC2
+Accessories 3;MD-ACC3
+Brief commercial description;MD-COK
+Commercial description;MD-COL
+Model cluster;MD-MCLU
+Make;MD-MERK
+Model name;MD-MN
+Model name supplement;MD-MNA
+Model year;MD-MY
+Rear hub;MD-NAAFA
+Front hub;MD-NAAFV
+Authorisation group;MD-OAGRP
+Model all countries;MD-SELAL
+Belgium model;MD-SELBE
+Denmark model;MD-SELDK
+Germany model;MD-SELDU
+Export model;MD-SELEX
+Availability Fietsshop.nl;MD-SELFS
+Availability Kinderfiets.nl;MD-SELKF
+Availability Loekie.nl;MD-SELKL
+Netherlands model;MD-SELNL
+Available VN webshop;MD-SELVNWS
+Segment;MD-SM
+Different segment Germany;MD-SMDE
+Different segment Denmark;MD-SMDK
+Extra segment;MD-SME
+Segment filter;MD-SMF
+Subsegment;MD-SSM
+Subsegment Germany;MD-SSMDE
+Different subsegment Denmark;MD-SSMDK
+Extra subsegment;MD-SSME
+Status model;MD-STS
+Uitvoeringen;MD-UITV
+USP 1;MD-USP1
+USP 2;MD-USP2
+USP 3;MD-USP3
+USP 4;MD-USP4
+USP 5;MD-USP5
+USP 6;MD-USP6
+USP 7;MD-USP7
+USP 8;MD-USP8
+Advantage 1;MD-VDL1
+Advantage 2;MD-VDL2
+Advantage 3;MD-VDL3
+Advantage 4;MD-VDL4
+Advantage 5;MD-VDL5
+Advantage 6;MD-VDL6
+Advantage 7;MD-VDL7
+Advantage 8;MD-VDL8
+Advantage 9;MD-VDL9
+Stem;MD-VOORB
+World;MD-WE
+Weight without battery [kg];MD-WGT
+Battery weight [kg];MD-WGTA
+Wheel size;MD-WHSIZE
+Webshop Segment;MD-WSM
+Webshop Segment Extra;MD-WSME
+Webshop Segment Extra VN;MD-WSMEVN
+Webshop Segment VN;MD-WSMVN
+Search term model general;MDZOEK
+Search model language-dependent;MDZOEKT
+Primary brake sys. model DST;MODELREMPA
+Beschikb. VN webshop;SELVNWS
+Primary brake system type DST;TYPEREMPA
+Sec. rear brake system type DST;TYPEREMSA
+Brake system type for DST;TYPEREMV
+Battery make;UD-ACCUBRD
+Battery capacity;UD-ACCUC
+Battery location;UD-ACCULOC
+Battery type;UD-ACCUTYP
+Min. battery operating radius;UD-ACRF
+Max battery operating radius battery;UD-ACRT
+Bell;UD-BELL
+Bell type;UD-BELLTYP
+Headset;UD-BHS
+Rear brake make;UD-BRKBRD
+Front brake make;UD-BRKF
+Front brake sort;UD-BRKFSRT
+Front brake type;UD-BRKFTYP
+Rear brake type;UD-BRKTYPE
+Luggage carrier;UD-CAR
+Front carrier;UD-CARF
+Cassette make;UD-CAS
+Cassette type;UD-CASTYP
+Crank make;UD-CRNKBR
+Crank type;UD-CRNKTYP
+Rear derailleur make;UD-DERABRD
+Rear derailleur type;UD-DERATYP
+Front derailleur make;UD-DERVBRD
+Front derailleur type;UD-DERVTYP
+Automatic chain tensioner;UD-DRTRT
+Display;UD-DSP
+Removable display;UD-DSPAF
+Handlebar display/control unit;UD-DSPST
+Dynamo;UD-DYN
+Automatic gearshift;UD-GRAUT
+Gearing make;UD-GRBRD
+Gearing group;UD-GRGRP
+Gearing location;UD-GRLOC
+Number of gears;UD-GRNBR
+Gearing type;UD-GRTYP
+Handgrip;UD-HV
+Insurance;UD-INS
+Chain;UD-KET
+Chain guard;UD-KETB
+Rear light;UD-LIGHTB
+Front light;UD-LIGHTF
+Motor make;UD-MTBRD
+Motor torque (Nm);UD-MTCAP
+Motor location;UD-MTL
+Motor type;UD-MTTYP
+Pedal;UD-PDL
+Pedal assist - cadence;UD-PDLSPCT
+Pedal assist - throttle;UD-PDLSPGH
+Pedal assist settings;UD-PDLSPM
+Pedal assist sensor;UD-PDLSPS
+Pedal assist Walk As;UD-PDLSPWA
+Pump;UD-POMP
+Rear brake sort;UD-REMA
+Third brake;UD-REMD
+Rim type;UD-RIMTYP
+Saddle make;UD-SADBRD
+Saddle type;UD-SADTYP
+Elastic luggage strap;UD-SB
+Shifter make;UD-SHFTBRD
+Shifter type;UD-SHFTTYP
+Lock;UD-SLOT
+Spokes;UD-SPA
+Mudguard;UD-SPB
+Stand;UD-STD
+Handlebar make;UD-STM
+Stem type;UD-STP
+Handlebar type;UD-STT
+Steering lock;UD-STWLCK
+Tyre make;UD-TRBR
+Tyre type;UD-TRSRT
+Tyre sort;UD-TRTYPE
+Removable battery;UD-UCCUU
+Starting price;UD-VAP
+Rim make;UD-VELG
+Front fork sort;UD-VVS
+Front fork type;UD-VVT
+Wheelset make;UD-WHLSBRD
+Wheelset type;UD-WHLSTYP
+Extra warranty;UD-XTRGAR
+Saddle pin;UD-ZADP
+Discontinued item;UITLOOP
+Business unit;UNIT
+Non-leak;UP-BALEK
+Classification based on field 1;UP-VVO
+Classification based on field 2;UP-VVO2
+Classification based on field 3;UP-VVO3
+Classification based on field 4;UP-VVO4
+Name of item photo;USEPHOTO
+Weight in kg custom order;WEIGHT
+Commercial weight;WEIGHTCOM
+Wheel size in inch;WHEEL
+Bottle cage Mounting;UP-BOCGMNT
